@@ -1,14 +1,21 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+  <!-- <DummyComp /> -->
+  <HeaderComponent />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue';
+// import DummyComp from './components/DummyComp.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+
+
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
+    HeaderComponent
   }
 }
 </script>

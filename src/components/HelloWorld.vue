@@ -1,14 +1,14 @@
 <template>
  <p>Hello Vue js</p> 
- <h1>props string literals : {{msg}}</h1>
+ <!-- <h1>props string literals : {{msg}}</h1> -->
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  // props: {
+  //   msg: String
+  // }
 }
 </script>
 
