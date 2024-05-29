@@ -24,14 +24,14 @@ export default {
 html,
 body {
   /* background-image: url(http://localhost:8080/img/header.52ac4778.jpg); */
+  background-image: url('./assets/images/doubleVictoryBg.png');
   margin: 0;
-  background-color: #F13737 !important;
-  /* height: 100vh; */
+  /* background-color: #F13737 !important; */
+  height: 100vh;
   width: 100%;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 #app {
