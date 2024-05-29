@@ -23,7 +23,7 @@ export default {
 <style>
 html,
 body {
-  background-image: url(http://localhost:8080/img/header.52ac4778.jpg);
+  /* background-image: url(http://localhost:8080/img/header.52ac4778.jpg); */
   margin: 0;
   background-color: #F13737 !important;
   /* height: 100vh; */
