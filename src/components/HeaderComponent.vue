@@ -346,7 +346,7 @@ export default {
         justify-content: center;
         overflow: hidden;
         right: 0;
-        top: 300px;
+        top: 183px;
 
         span {
             color: #fff;
@@ -364,7 +364,8 @@ export default {
     .curt_timer {
         width: 100%;
         position: absolute;
-        bottom: -1rem;
+        // bottom: -1rem;
+        top: 13rem;
 
         ul {
             display: flex;
