@@ -1,8 +1,9 @@
 <template>
     <div class="howToPlay">
         <div class="arrowHowToPlay">
-           <img src="../assets/images/picture_arrow2.png" alt="picture-arrow2"  /> 
-           <img src="../assets/images/picture_arrow2.png" alt="picture-arrow2"  /> 
+           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
+           <p>How To Play</p>
+           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
         </div>
     </div>
 </template>
@@ -22,13 +23,23 @@ export default {
     margin: 0 auto;
 }
 .arrowHowToPlay{
-    height: 2vh;
-    width: 10%;
+    height: 1vh;
+    /* width: 80%; */
     display: flex;
-    justify-content: space-around;
-    /* flex-direction: column; */
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    top: 1rem;
     img{
         width: 100%;
+    }
+    p{
+        display: flex;
+        width: 100%;
+        position: relative;
+        top: -1.3rem;
+        left: .5rem;
+        color: purple;
     }
 }
 </style>
