@@ -2,12 +2,16 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   <!-- <DummyComp /> -->
   <HeaderComponent />
+  <HowToPlay />
+  
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 // import DummyComp from './components/DummyComp.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
+import HowToPlay from './components/HowToPlayComp.vue';
+
 
 
 
@@ -15,7 +19,8 @@ export default {
   name: 'App',
   components: {
     // HelloWorld
-    HeaderComponent
+    HeaderComponent,
+    HowToPlay
   }
 }
 </script>
