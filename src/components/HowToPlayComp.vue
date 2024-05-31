@@ -5,10 +5,11 @@
            <p>How To Play</p>
            <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
         </div>
-        <!-- <div>
-           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
-           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
-        </div> -->
+        <div class="howToPlay-reward">
+           <img src="../assets/images/how_to_play1.png" alt="picture-arrow2"  /> 
+           <img src="../assets/images/how_to_play2.png" alt="picture-arrow2"  /> 
+           <img src="../assets/images/how_to_play3.png" alt="picture-arrow2"  /> 
+        </div>
     </div>
 </template>
 
@@ -44,6 +45,21 @@ export default {
         top: -1.3rem;
         left: .5rem;
         color: purple;
+    }
+}
+
+.howToPlay-reward{
+    display: flex;
+    width: 15%;
+    height: 7vh;
+    justify-content: center;
+    gap: 10vw;
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+
+    img{
+        width: 100%;
     }
 }
 </style>

@@ -16,7 +16,6 @@ export default{
    .leaderContainer{
     background-image: url('../assets/images/background_leaderboard.jpg');
     background-size: 100% 100%;
-    background-size: cover;
     width: 100%;
     height: 50vh;
     margin: 0 auto;
