@@ -5,6 +5,10 @@
            <p>How To Play</p>
            <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
         </div>
+        <!-- <div>
+           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
+           <img src="../assets/images/arrow.png" alt="picture-arrow2"  /> 
+        </div> -->
     </div>
 </template>
 
