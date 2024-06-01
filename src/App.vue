@@ -3,8 +3,8 @@
   <!-- <DummyComp /> -->
   <HeaderComponent />
   <HowToPlay />
+  <MissionComp />
   <LeaderBoardComp />
-  
 </template>
 
 <script>
@@ -13,7 +13,7 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import HowToPlay from './components/HowToPlayComp.vue';
 import LeaderBoardComp from './components/LeaderBoardComp.vue';
-
+import MissionComp from './components/MissionComp.vue';
 
 
 
@@ -23,7 +23,8 @@ export default {
     // HelloWorld
     HeaderComponent,
     HowToPlay,
-    LeaderBoardComp
+    LeaderBoardComp,
+    MissionComp
   }
 }
 </script>
