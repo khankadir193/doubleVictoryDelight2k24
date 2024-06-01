@@ -5,6 +5,9 @@
             <p>Card Mission</p>
             <img src="../assets/images/arrow.png" alt="picture-arrow2" />
         </div>
+        <div class="buyBtn">
+            <p>Go Buy</p>
+        </div>
     </div>
 </template>
 
@@ -46,6 +49,25 @@ export default {
         top: -1.3rem;
         left: .5rem;
         color: purple;
+    }
+}
+
+.buyBtn{
+    background-image: url('../assets/images/mission-strip.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* width: 30%; */
+    height: 7vh;
+    margin-top: 3rem;
+    p{
+        margin: 0 auto;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
     }
 }
 </style>
