@@ -4,7 +4,8 @@
   <HeaderComponent />
   <HowToPlay />
   <MissionComp />
-  <LeaderBoardComp />
+  <Tabs />
+  <!-- <LeaderBoardComp /> -->
 </template>
 
 <script>
@@ -12,8 +13,9 @@
 // import DummyComp from './components/DummyComp.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import HowToPlay from './components/HowToPlayComp.vue';
-import LeaderBoardComp from './components/LeaderBoardComp.vue';
+// import LeaderBoardComp from './components/LeaderBoardComp.vue';
 import MissionComp from './components/MissionComp.vue';
+import Tabs from './components/TabsComp.vue';
 
 
 
@@ -23,8 +25,9 @@ export default {
     // HelloWorld
     HeaderComponent,
     HowToPlay,
-    LeaderBoardComp,
-    MissionComp
+    // LeaderBoardComp,
+    MissionComp,
+    Tabs
   }
 }
 </script>
