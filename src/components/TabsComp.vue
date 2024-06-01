@@ -2,7 +2,8 @@
     <div>
         <div class="tabs">
             <button :class="{ active: currentTab === 'DailyComp' }" @click="currentTab = 'DailyComp'">Daily</button>
-            <button :class="{ active: currentTab === 'OverallComp' }" @click="currentTab = 'OverallComp'">Overall</button>
+            <button :class="{ active: currentTab === 'OverallComp' }"
+                @click="currentTab = 'OverallComp'">Overall</button>
         </div>
         <div class="tab-content">
             <component :is="currentTab"></component>
@@ -29,20 +30,32 @@ export default {
 
 <style>
 .tabs {
-    display: flex;
-    gap: 10px;
-    margin-top: 2rem;
+    gap: 5vw;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.93333rem;
+    border-radius: 2rem;
+    text-align: center;
+    background: #973930;
+    border: .02667rem solid #ffeea8;
+    width: 90%;
+    margin: 3rem auto;
 }
 
 button {
     padding: 10px 20px;
     cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
 }
 
 button.active {
     background-color: orange;
     color: white;
+    
 }
 
 .tab-content {
