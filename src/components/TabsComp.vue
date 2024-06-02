@@ -33,7 +33,7 @@ export default {
     background-image: url('../assets/images/background_leaderboard.jpg');
     background-size: 100% 100%;
     width: 100%;
-    height: 50vh;
+    /* height: 100vh; */
     margin: 0 auto;
 }
 .tabs {
