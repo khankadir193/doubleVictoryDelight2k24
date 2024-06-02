@@ -1,12 +1,16 @@
 <template>
-    <h1>Over All Comp</h1>
+<LeaderBoardDesc />
 </template>
 
 <script>
-export default {
-    name:'OverAllComp'
-}
+import LeaderBoardDesc from './LeaderBoardDesc.vue';
 
+export default {
+    name:'OverAllComp',
+    components:{
+        LeaderBoardDesc
+    }
+}
 
 </script>
 
