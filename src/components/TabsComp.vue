@@ -30,17 +30,17 @@ export default {
 
 <style>
 .tabs {
-    gap: 5vw;
+    gap: 30vw;
     justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.93333rem;
+    height: 1.93333rem;
     border-radius: 2rem;
     text-align: center;
     background: #973930;
     border: .02667rem solid #ffeea8;
-    width: 90%;
+    width: 78%;
     margin: 3rem auto;
 }
 
@@ -53,9 +53,13 @@ button {
 }
 
 button.active {
-    background-color: orange;
-    color: white;
-    
+    /* background-color: orange; */
+    color: yellow;
+    background: url('../assets/images/leaderboard_select.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 3vh; */
 }
 
 .tab-content {
