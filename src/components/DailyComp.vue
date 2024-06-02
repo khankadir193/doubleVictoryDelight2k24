@@ -1,5 +1,5 @@
 <template>
-        <LeaderBoardDesc />
+        <LeaderBoardDesc v-if="showLeaderBoard" :title="leaderBoardTitle" :description = "leaderDescription" />
 </template>
 
 <script>
@@ -8,6 +8,13 @@ export default {
     name: 'DailyComp',
     components:{
         LeaderBoardDesc
+    },
+    data() {
+        return {
+            showLeaderBoard: true,
+            leaderBoardTitle: "OverAll",
+            leaderDescription: " The Top 1 Rebate Card users with most beans get extra rewards."
+        }
     }
 }
 

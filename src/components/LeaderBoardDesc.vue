@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="leaderboard-des">
-            <p>The Top 1 Rebate Card user with most beans get extra rewards.</p>
+            <!-- <p>The Top 1 Rebate Card user with most beans get extra rewards.</p> -->
+            <p>{{ description }}</p>
         </div>
         <div class="userColumn">
             <div>User</div>
@@ -13,7 +14,18 @@
 
 <script>
 export default {
-    name: 'LeaderBoardDesc'
+    name: 'LeaderBoardDesc',
+    props:{
+        title:{
+            type:String,
+            required:true
+        },
+        description:{
+            type:String,
+            required:true,
+            default:''
+        }
+    }
 }
 
 </script>
