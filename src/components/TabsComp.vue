@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="tabs">
             <button :class="{ active: currentTab === 'DailyComp' }" @click="currentTab = 'DailyComp'">Daily</button>
             <button :class="{ active: currentTab === 'OverallComp' }"
@@ -29,6 +29,13 @@ export default {
 </script>
 
 <style>
+.container{
+    background-image: url('../assets/images/background_leaderboard.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+}
 .tabs {
     gap: 30vw;
     justify-content: center;
@@ -41,7 +48,7 @@ export default {
     background: #973930;
     border: .02667rem solid #ffeea8;
     width: 78%;
-    margin: 3rem auto;
+    margin: 3rem auto; 
 }
 
 button {
