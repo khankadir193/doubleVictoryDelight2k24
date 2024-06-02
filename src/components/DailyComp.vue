@@ -1,6 +1,13 @@
 <template>
-    <div class="leaderboard-des">
-        <p>The Top 1 Rebate Card user with most beans get extra rewards.</p>
+    <div>
+        <div class="leaderboard-des">
+            <p>The Top 1 Rebate Card user with most beans get extra rewards.</p>
+        </div>
+        <div class="userColumn">
+            <div>User</div>
+            <div>Rebate beans</div>
+            <div>Reward</div>
+        </div>
     </div>
 </template>
 
@@ -13,7 +20,6 @@ export default {
 
 <style lang="less" scoped>
 .leaderboard-des {
-
     width: 80%;
     margin: 0 auto 0;
     border-radius: .34667rem;
@@ -31,5 +37,16 @@ export default {
         font-weight: 400;
         color: #ffe073;
     }
+}
+.userColumn{
+    display: grid;
+    grid-template-columns: 24% 52% 17%;
+    text-align: center;
+    // padding: 2vw 0;
+    font-size: 4vw;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .7019607843137254);
+    margin-top: -2rem;
 }
 </style>
