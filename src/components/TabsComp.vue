@@ -1,7 +1,8 @@
 <template>
     <div class="container">
         <div class="tabs">
-            <button :class="{ active: currentTab === 'DailyComp' }" @click="currentTab = 'DailyComp'">Daily</button>
+            <button :class="{ active: currentTab === 'DailyComp' }" 
+            @click="currentTab = 'DailyComp'">Daily</button>
             <button :class="{ active: currentTab === 'OverallComp' }"
                 @click="currentTab = 'OverallComp'">Overall</button>
         </div>
