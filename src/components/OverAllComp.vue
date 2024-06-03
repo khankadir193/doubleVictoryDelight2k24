@@ -1,13 +1,13 @@
 <template>
     <LeaderBoardDesc v-if="showLeaderBoard" :title="leaderBoardTitle" :description="leaderDescription" />
-    <div class="col4 top1">
+    <div class="col4 top1" v-for="user in data" :key="user.id">
         <div class="rank-top3">
         </div>
         <div class="user-profile">
             <button class="profile-Imgbg">
                 <!-- <img src="https://d1zkuggdb17jjb.cloudfront.net/avatar/2023-08-21/6435b677-b947-4a39-95a0-ae05bb8b3e0f.jpeg"
                     alt="" class="user-profile-img"> -->
-                profile
+                    {{ user.userName }}
             </button>
             <span class="user-name">Mαήnατ.�</span>
         </div>
