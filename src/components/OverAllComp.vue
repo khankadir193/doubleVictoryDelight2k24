@@ -82,10 +82,10 @@ export default {
     font-weight: 400;
     color: #8d211a;
     column-gap: 2%;
-    padding: 2.13vw;
+    /* padding: 2.13vw; */
     margin-bottom: 2.8vw;
     align-items: center;
-    background: linear-gradient(0deg, rgba(255, 237, 201, .7019607843137254), rgba(253, 242, 231, .7019607843137254));
+    /* background: linear-gradient(0deg, rgba(255, 237, 201, .7019607843137254), rgba(253, 242, 231, .7019607843137254)); */
     border-radius: 2.13vw;
 }
 
