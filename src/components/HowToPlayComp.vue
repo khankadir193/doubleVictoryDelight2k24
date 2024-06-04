@@ -43,7 +43,7 @@ export default {
     background-size: 100% 100%;
     width: 90%;
     height: 50vh;
-    margin: 0 auto;
+    margin: 2.5rem auto;
 }
 
 .arrowHowToPlay {
