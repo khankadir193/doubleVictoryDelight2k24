@@ -1,6 +1,6 @@
 <template>
     <LeaderBoardDesc v-if="showLeaderBoard" :title="leaderBoardTitle" :description="leaderDescription" />
-    <div class="col4 top1" v-for="user in data" :key="user.id">
+    <div class="col4 top1" v-for="user in content" :key="user.id">
         <div class="rank-top3">
         </div>
         <div class="user-profile">
@@ -39,7 +39,7 @@ export default {
             showLeaderBoard: true,
             leaderBoardTitle: "OverAll",
             leaderDescription: " The Top 5 Rebate Card users with most beans get extra rewards.",
-            data: null,
+            content: null,
             loading: true,
             error: null
         }
@@ -55,9 +55,9 @@ export default {
                 if (!response.ok) {
                     throw new Error('Network response was not ok.');
                 }
-                const data = await response.json();
-                console.log('data...????', data);
-                this.data = data;
+                const response2 = await response.json();
+                console.log('response2222...????', response2);
+                this.content = response2.data;
             } catch (error) {
                 this.error = 'Failed to load data';
             } finally {
