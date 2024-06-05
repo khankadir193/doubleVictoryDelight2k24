@@ -1,7 +1,7 @@
 <template>
     <LeaderBoardDesc v-if="showLeaderBoard" :title="leaderBoardTitle" :description="leaderDescription" />
     <div v-for="user in content" :key="user.id">
-        <div class="col4 top1" v-if="user.busUserId === '5017266'">
+        <!-- <div class="col4 top1" v-if="user.busUserId === '5017266'">
             <div class="rank-top3">
             </div>
             <div class="user-profile">
@@ -15,31 +15,45 @@
                 <span class="beans-amount">1M</span>
             </div>
             <div class="center-align">
-                <!-- <img alt="" class="beans reward-img"
-                src="../assets/images/beansIcon.png" lazy="loaded"> -->
+                22K
+            </div>
+        </div> -->
+
+        <!-- <div class="col4 top2" v-if="user.busUserId === '5017268'">
+            <div class="rank-top3">
+            </div>
+            <div class="user-profile">
+                <button class="profile-Imgbg">
+                    <img :src="user.userAvatar" alt="" class="user-profile-img">
+                </button>
+                <span class="user-name">{{ user.userName }}</span>
+            </div>
+            <div class="left-align">
+                <img src="../assets/images/beansIcon.png" alt="beansIcon" />
+                <span class="beans-amount">1M</span>
+            </div>
+            <div class="center-align">
+                22K
+            </div>
+        </div> -->
+        <div :class="getClassByUserId(user.busUserId)">
+            <div class="rank-top3">
+            </div>
+            <div class="user-profile">
+                <button class="profile-Imgbg">
+                    <img :src="user.userAvatar" alt="" class="user-profile-img">
+                </button>
+                <span class="user-name">{{ user.userName }}</span>
+            </div>
+            <div class="left-align">
+                <img src="../assets/images/beansIcon.png" alt="beansIcon" />
+                <span class="beans-amount">1M</span>
+            </div>
+            <div class="center-align">
                 22K
             </div>
         </div>
 
-        <div class="col4 top2" v-if="user.busUserId === '5017268'">
-            <div class="rank-top3">
-            </div>
-            <div class="user-profile">
-                <button class="profile-Imgbg">
-                    <img :src="user.userAvatar" alt="" class="user-profile-img">
-                </button>
-                <span class="user-name">{{ user.userName }}</span>
-            </div>
-            <div class="left-align">
-                <img src="../assets/images/beansIcon.png" alt="beansIcon" />
-                <span class="beans-amount">1M</span>
-            </div>
-            <div class="center-align">
-                <!-- <img alt="" class="beans reward-img"
-                src="../assets/images/beansIcon.png" lazy="loaded"> -->
-                22K
-            </div>
-        </div>
     </div>
 
 </template>
@@ -81,7 +95,18 @@ export default {
             } finally {
                 this.loading = false;
             }
-        }
+        },
+        getClassByUserId(busUserId) {
+            const classMap = {
+                '5017266': 'col4 top1',
+                '5017268': 'col4 top2',
+                '5017269': 'col4 top3',
+                '5017272': 'col4 top4',
+                '5017273': 'col4 top5',
+                // Add more mappings as needed
+            };
+            return classMap[busUserId] || 'col4 default-class'; // Provide a default class if needed
+        },
     }
 }
 
@@ -96,6 +121,36 @@ export default {
 
 .top2 {
     background-image: url('../assets/images/picture_top2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top3 {
+    background-image: url('../assets/images/picture_top3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top4 {
+    background-image: url('../assets/images/picture_top4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top5 {
+    background-image: url('../assets/images/picture_top5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top6 {
+    background-image: url('../assets/images/picture_star_top1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top7 {
+    /* background-image: url('../assets/images/picture_star_top1.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
