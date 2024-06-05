@@ -1,25 +1,47 @@
 <template>
     <LeaderBoardDesc v-if="showLeaderBoard" :title="leaderBoardTitle" :description="leaderDescription" />
-    <div class="col4 top1" v-for="user in content" :key="user.id">
-        <div class="rank-top3">
-        </div>
-        <div class="user-profile">
-            <button class="profile-Imgbg">
-                <img :src="user.userAvatar"
-                    alt="" class="user-profile-img">
-            </button>
-            <span class="user-name">{{ user.userName }}</span>
-        </div>
-        <div class="left-align">
-            <img src="../assets/images/beansIcon.png" alt="beansIcon" />
-            <span class="beans-amount">1M</span>
-        </div>
-        <div class="center-align">
-            <!-- <img alt="" class="beans reward-img"
+    <div v-for="user in content" :key="user.id">
+        <div class="col4 top1" v-if="user.busUserId === '5017266'">
+            <div class="rank-top3">
+            </div>
+            <div class="user-profile">
+                <button class="profile-Imgbg">
+                    <img :src="user.userAvatar" alt="" class="user-profile-img">
+                </button>
+                <span class="user-name">{{ user.userName }}</span>
+            </div>
+            <div class="left-align">
+                <img src="../assets/images/beansIcon.png" alt="beansIcon" />
+                <span class="beans-amount">1M</span>
+            </div>
+            <div class="center-align">
+                <!-- <img alt="" class="beans reward-img"
                 src="../assets/images/beansIcon.png" lazy="loaded"> -->
-            22K
+                22K
+            </div>
+        </div>
+
+        <div class="col4 top2" v-if="user.busUserId === '5017268'">
+            <div class="rank-top3">
+            </div>
+            <div class="user-profile">
+                <button class="profile-Imgbg">
+                    <img :src="user.userAvatar" alt="" class="user-profile-img">
+                </button>
+                <span class="user-name">{{ user.userName }}</span>
+            </div>
+            <div class="left-align">
+                <img src="../assets/images/beansIcon.png" alt="beansIcon" />
+                <span class="beans-amount">1M</span>
+            </div>
+            <div class="center-align">
+                <!-- <img alt="" class="beans reward-img"
+                src="../assets/images/beansIcon.png" lazy="loaded"> -->
+                22K
+            </div>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -68,6 +90,12 @@ export default {
 <style scoped>
 .top1 {
     background-image: url('../assets/images/picture_top1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top2 {
+    background-image: url('../assets/images/picture_top2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
