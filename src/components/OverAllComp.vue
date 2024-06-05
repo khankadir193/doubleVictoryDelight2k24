@@ -103,6 +103,8 @@ export default {
                 '5017269': 'col4 top3',
                 '5017272': 'col4 top4',
                 '5017273': 'col4 top5',
+                '5017271': 'col4 top6',
+                '5017305': 'col4 top7',
                 // Add more mappings as needed
             };
             return classMap[busUserId] || 'col4 default-class'; // Provide a default class if needed
@@ -144,15 +146,17 @@ export default {
 }
 
 .top6 {
-    background-image: url('../assets/images/picture_star_top1.png');
+    /* background-image: url('../assets/images/picture_star_top1.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background: linear-gradient(0deg, rgba(255, 237, 201, .7019607843137254), rgba(253, 242, 231, .7019607843137254));
 }
 
 .top7 {
     /* background-image: url('../assets/images/picture_star_top1.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background: linear-gradient(0deg, rgba(255, 237, 201, .7019607843137254), rgba(253, 242, 231, .7019607843137254));
 }
 
 .col4 {
