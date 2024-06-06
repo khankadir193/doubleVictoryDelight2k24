@@ -29,66 +29,35 @@
                         <div class="icon"></div>
                     </div>
                 </div>
-                <div class="rule_text" v-if="language == 1">
-                    <div class="paragraph_6">
-                        Hello, Pattern Game fans! The Round 2 of the OyeTalk’s most entertaining event is here.
-                        In this “Super Pattern-Round 2” event, you can participate just by playing the Pattern game
-                        and completing the Special tasks so you can win exclusive rewards.
-                        <br />
-                        This event consists of 4 main parts:
-                        <br />
-                        1. Room Special Target
-                        <br />
-                        2. Daily Task
-                        <br />
-                        3. Winning Daily Leaderboard
-                        <br />
-                        4. Room Consumption Leaderboard
-                    </div>
-                    <div>
-                        <span class="text_1">· Room Special Target</span>
-                        <div class="text-wrapper_1 flex-col">
-                            <span class="paragraph_1">During the event, if the total amount of bets placed on Pattern
-                                games in
-                                the live room reaches 150 Million beans, the live room owner will receive a special
-                                target bonus
-                                of 100k beans!<br /></span>
+                <!-- <div class="rule_text" v-if="language == 1"> -->
+                    <div class="rule_text" v-if="language == 1">
+                        <div class="rTag" data-v-f914f79e="">The event is divided into three parts:</div>
+                        <div class="text" data-v-f914f79e=""> 1. Introduction to the Rebate Card feature<br
+                                data-v-f914f79e="">2. Daily &amp; Overall leaderboard<br data-v-f914f79e="">3. Rebate
+                            card mission </div>
+                        <div class="rTag">1. What is the Rebate Card?</div>
+                        <div class="text"> Exclusively available for OyeTalk Royal Pattern users, the
+                            Rebate Card is a premium in-game item. If you don't win a game <b data-v-f914f79e="">(by not
+                                betting on the winning seat)</b>, using the Rebate Card guarantees a 5% bean rebate to
+                            reduce your losses. </div>
+                        <div class="rTag">2. Leaderboard</div>
+                        <div class="text"><b data-v-f914f79e="">Daily Leaderboard:</b><br>
+                            <ul>
+                                <li>Users will be ranked based on the daily rebate beans during the
+                                    event period after using the Rebate Card.</li>
+                                <li>Top 1 from the leaderboard will be rewarded.</li>
+                            </ul><b>Overall Leaderboard:</b>
+                            <ul>
+                                <li>Users will be ranked based on the total rebate beans during the
+                                    event period after using the Rebate Card.</li>
+                                <li>Top 5 from the leaderboard will be rewarded.</li>
+                            </ul>
                         </div>
-
+                        <div class="rTag">3. Rebate Card Mission:</div>
+                        <div class="text">User can receive extra rewards by purchasing different
+                            numbers of rebate cards during the event.</div>
                     </div>
-                    <span class="text_2">· Daily Task</span>
-                    <div class="text-wrapper_2 flex-col">
-                        <span class="text_3">Now you can win exclusive rewards just by completing daily tasks. Users
-                            just need to complete daily tasks and they will receive respective target rewards!
-                            <br><br></span>
-                        <span class="paragraph_2">Note: There will be a delay of 30 mins in sending the rewards. Rewards
-                            will expire at UTC 0:00 the next day.<br /></span>
-                    </div>
-                    <span class="text_4">· Winning Daily Leaderboard</span>
-                    <div class="text-wrapper_3 flex-col">
-                        <span class="paragraph_3">
-                            1. A Winning daily leaderboard of top 3 users will receive exciting rewards! These rewards
-                            will be sent to the user automatically at the end of the day during the event.<br />
-                            2. Winning Leaderboard is ranked based on the beans users have won in the Royal Pattern that
-                            day.
-                        </span>
-                    </div>
-                    <span class="text_5">· Room Consumption Leaderboard</span>
-                    <div class="text-wrapper_4 flex-col">
-                        <span class="paragraph_4">
-                            1. There will be a Room Consumption Leaderboard. Which will show how many beans are consumed
-                            in the live room during the event.<br />
-                            2. During the event period, the top 5 live room owners with the highest accumulated bets on
-                            Pattern games will be rewarded. Rewards will be sent automatically.
-                        </span>
-                    </div>
-                    <span class="paragraph_5">
-                        Note:<br />
-                        · When the Pattern event starts, the VIP mode will be turned on until the event ends.<br />
-                        · Event rewards will be received within 72 hours after the event ends. According to UTC, rewards
-                        will be sent before 3/12/22 at 12:00:00. Event time is based on UTC time.
-                    </span>
-                </div>
+                <!-- </div> -->
 
                 <div class="rule_text" v-if="language == 2">
                     <div class="paragraph_6">
