@@ -59,99 +59,60 @@
                 </div>
 
                 <div class="rule_text" v-if="language == 2">
-                    <div class="rTag" data-v-f914f79e="">Ye event 3 parts mein divided hai</div>
-                    <div class="text" data-v-f914f79e=""> 1. Introduction to the Rebate Card feature<br
-                            data-v-f914f79e="">2. Daily &amp; Overall leaderboard<br data-v-f914f79e="">3. Rebate
-                        card mission </div>
-                    <div class="rTag" data-v-f914f79e="">1. Rebate Card kya hai?</div>
-                    <div class="text" data-v-f914f79e=""> Rebate Card aik premium in-game item hai jo khas tor pe
+                    <div class="rTag">Ye event 3 parts mein divided hai</div>
+                    <div class="text"> 1. Introduction to the Rebate Card feature<br>2. Daily &amp; Overall leaderboard
+                        <br>3. Rebate
+                        card mission
+                    </div>
+                    <div class="rTag">1. Rebate Card kya hai?</div>
+                    <div class="text"> Rebate Card aik premium in-game item hai jo khas tor pe
                         OyeTalk Royal Pattern users ke liye available hai. Agar ap koi game nahi jeet'te hain <b
                             data-v-f914f79e="">(winning seat pe bet na laga ke)</b>, to Rebate card istemal karne pe
                         ap 5% beans rebate kar ke apne nuksan ko kam kar sakte hain. </div>
-                    <div class="rTag" data-v-f914f79e="">2. Leaderboard</div>
-                    <div class="text" data-v-f914f79e=""><b data-v-f914f79e="">Daily Leaderboard:</b><br
-                            data-v-f914f79e="">
-                        <ul data-v-f914f79e="">
-                            <li data-v-f914f79e="">Users ki ranking rebate card istemal karne ke bad event ke doran
+                    <div class="rTag">2. Leaderboard</div>
+                    <div class="text"><b>Daily Leaderboard:</b><br>
+                        <ul>
+                            <li>Users ki ranking rebate card istemal karne ke bad event ke doran
                                 rebate beans ke mutabiq ho gi.</li>
-                            <li data-v-f914f79e="">Leaderboard pe se TOP 1 ko reward diye jaen ge.</li>
-                        </ul><b data-v-f914f79e="">Overall Leaderboard:</b>
-                        <ul data-v-f914f79e="">
-                            <li data-v-f914f79e="">Users ki ranking rebate card istemal karne ke bad event ke doran
+                            <li>Leaderboard pe se TOP 1 ko reward diye jaen ge.</li>
+                        </ul><b>Overall Leaderboard:</b>
+                        <ul>
+                            <li>Users ki ranking rebate card istemal karne ke bad event ke doran
                                 tamam rebate beans ke mutabiq ho gi.</li>
-                            <li data-v-f914f79e="">Leaderboard pe se Top 5 ko rewards diye jaen ge.</li>
+                            <li>Leaderboard pe se Top 5 ko rewards diye jaen ge.</li>
                         </ul>
                     </div>
-                    <div class="rTag" data-v-f914f79e="">3. Rebate Card Mission:</div>
-                    <div class="text" data-v-f914f79e="">User ko event ke doran muktalif numbers ke rebate cards
+                    <div class="rTag">3. Rebate Card Mission:</div>
+                    <div class="text">User ko event ke doran muktalif numbers ke rebate cards
                         khareedne pe extra rewards diye jaen ge.</div>
                 </div>
-                <div class="rule_text" v-if="language == 3">
-                    <div class="paragraph_6">
-                        हैलो, पैटर्न गेम प्रेमियों! ओये टॉक की सबसे मनोरंजक घटना का दूसरा दौर यहां है। इस "सुपर
-                        पैटर्न-दौर 2" आयोजन में, आप
-                        पैटर्न गेम खेलकर और विशेष कार्यों को पूरा करके अनन्य इनाम जीत सकते हैं। <br />
-                        यह घटना 4 मुख्य भागों से मिलकर बनती है:
-                        <br />
-                        1. रूम विशेष लक्ष्य
-                        <br />
-                        2. दैनिक कार्य
-                        <br />
-                        3. जीतने वाला दैनिक लीडरबोर्ड
-                        <br />
-                        4. रूम कंजम्प्शन लीडरबोर्ड
-                    </div>
-                    <div>
-                        <span class="text_1">· रूम विशेष लक्ष्य</span>
-                        <div class="text-wrapper_1 flex-col">
-                            <span class="paragraph_1">इस घटना के दौरान, यदि लाइव रूम में पैटर्न गेमों पर लगाए गए कुल
-                                दांव 150 मिलियन
-                                बीन्स
-                                तक पहुंच जाते हैं, तो लाइव रूम के मालिक को 100k बीन्स का विशेष लक्ष्य बोनस मिलेगा!
-                                <br /></span>
-                        </div>
 
+                <div class="rule_text" v-if="language == 3">
+                    <div class="rTag" data-v-f914f79e="">आयोजन को तीन भागों में बांटा गया है:</div>
+                    <div class="text" data-v-f914f79e=""> 1. रिबेट कार्ड सुविधा का परिचय<br data-v-f914f79e="">2.
+                        दैनिक एवं समग्र लीडरबोर्ड<br data-v-f914f79e="">3. रिबेट कार्ड मिशन </div>
+                    <div class="rTag" data-v-f914f79e="">1. रिबेट कार्ड क्या है?</div>
+                    <div class="text" data-v-f914f79e=""> ओएटॉक रॉयल पैटर्न यूजर के लिए विशेष रूप से उपलब्ध, रिबेट
+                        कार्ड एक प्रीमियम इन-गेम आइटम है। यदि आप कोई गेम नहीं जीतते हैं <b data-v-f914f79e="">(जीतने
+                            वाली सीट पर दांव न लगाकर)</b>, तो रिबेट कार्ड का उपयोग करने से आपके नुकसान को कम करने के
+                        लिए 5% सेम छूट की गारंटी मिलती है। </div>
+                    <div class="rTag" data-v-f914f79e="">2. लीडरबोर्ड</div>
+                    <div class="text" data-v-f914f79e=""><b data-v-f914f79e="">दैनिक लीडरबोर्ड:</b><br
+                            data-v-f914f79e="">
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">रिबेट कार्ड का उपयोग करने के बाद इवेंट अवधि के दौरान दैनिक छूट
+                                बीन्स के आधार पर यूजर को रैंक किया जाएगा।</li>
+                            <li data-v-f914f79e="">लीडरबोर्ड से शीर्ष 1 को पुरस्कृत किया जाएगा।</li>
+                        </ul><b data-v-f914f79e="">समग्र लीडरबोर्ड:</b>
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">रिबेट कार्ड का उपयोग करने के बाद इवेंट अवधि के दौरान कुल छूट
+                                बीन्स के आधार पर यूजर को रैंक किया जाएगा।</li>
+                            <li data-v-f914f79e="">लीडरबोर्ड से शीर्ष 5 को पुरस्कृत किया जाएगा।</li>
+                        </ul>
                     </div>
-                    <span class="text_2">· दैनिक कार्य</span>
-                    <div class="text-wrapper_2 flex-col">
-                        <span class="text_3">अब आप दैनिक कार्यों को पूरा करके केवल अनन्य इनाम जीत सकते हैं। उपयोगकर्ताओं
-                            को केवल दैनिक
-                            कार्यों
-                            को पूरा करने की आवश्यकता है और वे आवश्यक लक्ष्य इनाम प्राप्त करेंगे! <br><br></span>
-                        <span class="paragraph_2">नोट: इनाम भेजने में 30 मिनट का अंतर होगा। इनाम अगले दिन UTC 0:00 पर
-                            समाप्त हो जाएगा। <br /></span>
-                    </div>
-                    <span class="text_4">· जीतने वाला दैनिक लीडरबोर्ड</span>
-                    <div class="text-wrapper_3 flex-col">
-                        <span class="paragraph_3">
-                            1. शीर्ष 3 उपयोगकर्ताओं के एक विजयी दैनिक लीडरबोर्ड को उत्साहजनक पुरस्कार मिलेगा! इन
-                            पुरस्कारों को इवेंट के
-                            दौरान
-                            दिन के अंत में उपयोगकर्ता को स्वचालित रूप से भेज दिया जाएगा। <br />
-                            2. जीतने वाले लीडरबोर्ड को रॉयल पैटर्न में उपयोगकर्ताओं द्वारा जीते गए बीन्स के आधार पर
-                            क्रमित किया
-                            जाता है।
-                        </span>
-                    </div>
-                    <span class="text_5">· रूम कंजम्प्शन लीडरबोर्ड</span>
-                    <div class="text-wrapper_4 flex-col">
-                        <span class="paragraph_4">
-                            1. रूम कंजम्प्शन लीडरबोर्ड होगा। जो इवेंट के दौरान लाइव रूम में कितने बीन्स खपाए गए हैं, वह
-                            दिखाएगा। <br />
-                            2. इवेंट अवधि के दौरान, पैटर्न गेमों पर सबसे अधिक एकत्रित दांव लगाने वाले पांच लाइव रूम के
-                            मालिकों को
-                            पुरस्कृत
-                            किया जाएगा। पुरस्कार स्वचालित रूप से भेजे जाएंगे।
-                        </span>
-                    </div>
-                    <span class="paragraph_5">
-                        ध्यान दें:<br />
-                        · जब पैटर्न इवेंट शुरू होता है, तो वीआईपी मोड को इवेंट समाप्त होने तक चालू किया जाएगा। <br />
-                        · इवेंट पुरस्कार इवेंट समाप्त होने के 72 घंटे के भीतर प्राप्त किए जाएंगे। UTC के अनुसार,
-                        पुरस्कार 3/12/22
-                        को
-                        12:00:00 से पहले भेजे जाएंगे। इवेंट का समय UTC समय के आधार पर है।
-                    </span>
+                    <div class="rTag" data-v-f914f79e="">3. रिबेट कार्ड मिशन:</div>
+                    <div class="text" data-v-f914f79e="">इवेंट के दौरान यूजर अलग-अलग संख्या में छूट कार्ड खरीदकर
+                        अतिरिक्त पुरस्कार प्राप्त कर सकते हैं।</div>
                 </div>
 
                 <div class="rule_text" v-if="language == 4">
