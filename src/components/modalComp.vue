@@ -30,103 +30,61 @@
                     </div>
                 </div>
                 <!-- <div class="rule_text" v-if="language == 1"> -->
-                    <div class="rule_text" v-if="language == 1">
-                        <div class="rTag" data-v-f914f79e="">The event is divided into three parts:</div>
-                        <div class="text" data-v-f914f79e=""> 1. Introduction to the Rebate Card feature<br
-                                data-v-f914f79e="">2. Daily &amp; Overall leaderboard<br data-v-f914f79e="">3. Rebate
-                            card mission </div>
-                        <div class="rTag">1. What is the Rebate Card?</div>
-                        <div class="text"> Exclusively available for OyeTalk Royal Pattern users, the
-                            Rebate Card is a premium in-game item. If you don't win a game <b data-v-f914f79e="">(by not
-                                betting on the winning seat)</b>, using the Rebate Card guarantees a 5% bean rebate to
-                            reduce your losses. </div>
-                        <div class="rTag">2. Leaderboard</div>
-                        <div class="text"><b data-v-f914f79e="">Daily Leaderboard:</b><br>
-                            <ul>
-                                <li>Users will be ranked based on the daily rebate beans during the
-                                    event period after using the Rebate Card.</li>
-                                <li>Top 1 from the leaderboard will be rewarded.</li>
-                            </ul><b>Overall Leaderboard:</b>
-                            <ul>
-                                <li>Users will be ranked based on the total rebate beans during the
-                                    event period after using the Rebate Card.</li>
-                                <li>Top 5 from the leaderboard will be rewarded.</li>
-                            </ul>
-                        </div>
-                        <div class="rTag">3. Rebate Card Mission:</div>
-                        <div class="text">User can receive extra rewards by purchasing different
-                            numbers of rebate cards during the event.</div>
+                <div class="rule_text" v-if="language == 1">
+                    <div class="rTag" data-v-f914f79e="">The event is divided into three parts:</div>
+                    <div class="text" data-v-f914f79e=""> 1. Introduction to the Rebate Card feature<br
+                            data-v-f914f79e="">2. Daily &amp; Overall leaderboard<br data-v-f914f79e="">3. Rebate
+                        card mission </div>
+                    <div class="rTag">1. What is the Rebate Card?</div>
+                    <div class="text"> Exclusively available for OyeTalk Royal Pattern users, the
+                        Rebate Card is a premium in-game item. If you don't win a game <b data-v-f914f79e="">(by not
+                            betting on the winning seat)</b>, using the Rebate Card guarantees a 5% bean rebate to
+                        reduce your losses. </div>
+                    <div class="rTag">2. Leaderboard</div>
+                    <div class="text"><b data-v-f914f79e="">Daily Leaderboard:</b><br>
+                        <ul>
+                            <li>Users will be ranked based on the daily rebate beans during the
+                                event period after using the Rebate Card.</li>
+                            <li>Top 1 from the leaderboard will be rewarded.</li>
+                        </ul><b>Overall Leaderboard:</b>
+                        <ul>
+                            <li>Users will be ranked based on the total rebate beans during the
+                                event period after using the Rebate Card.</li>
+                            <li>Top 5 from the leaderboard will be rewarded.</li>
+                        </ul>
                     </div>
-                <!-- </div> -->
+                    <div class="rTag">3. Rebate Card Mission:</div>
+                    <div class="text">User can receive extra rewards by purchasing different
+                        numbers of rebate cards during the event.</div>
+                </div>
 
                 <div class="rule_text" v-if="language == 2">
-                    <div class="paragraph_6">
-                        ہیلو، پیٹرن گیم کے شائقین! OyeTalk کا سب سے دلچسپ واقعہ Round 2 یہاں ہے۔
-                        اس "سپر پیٹرن-راؤنڈ 2" واقعہ میں، آپ پیٹرن گیم کھیل کر اور خصوصی کام مکمل کرکے انحصاری انعامات
-                        جیت سکتے ہیں۔
-                        <br />
-                        یہ واقعہ 4 اہم حصوں سے مشتمل ہے:
-                        <br />
-                        1. روم خصوصی ہدف
-                        <br />
-                        2. روزانہ کا کام
-                        <br />
-                        3. جیتنے والے روزانہ لیڈر بورڈ
-                        <br />
-                        4. روم استہلاک لیڈر بورڈ
+                    <div class="rTag" data-v-f914f79e="">Ye event 3 parts mein divided hai</div>
+                    <div class="text" data-v-f914f79e=""> 1. Introduction to the Rebate Card feature<br
+                            data-v-f914f79e="">2. Daily &amp; Overall leaderboard<br data-v-f914f79e="">3. Rebate
+                        card mission </div>
+                    <div class="rTag" data-v-f914f79e="">1. Rebate Card kya hai?</div>
+                    <div class="text" data-v-f914f79e=""> Rebate Card aik premium in-game item hai jo khas tor pe
+                        OyeTalk Royal Pattern users ke liye available hai. Agar ap koi game nahi jeet'te hain <b
+                            data-v-f914f79e="">(winning seat pe bet na laga ke)</b>, to Rebate card istemal karne pe
+                        ap 5% beans rebate kar ke apne nuksan ko kam kar sakte hain. </div>
+                    <div class="rTag" data-v-f914f79e="">2. Leaderboard</div>
+                    <div class="text" data-v-f914f79e=""><b data-v-f914f79e="">Daily Leaderboard:</b><br
+                            data-v-f914f79e="">
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">Users ki ranking rebate card istemal karne ke bad event ke doran
+                                rebate beans ke mutabiq ho gi.</li>
+                            <li data-v-f914f79e="">Leaderboard pe se TOP 1 ko reward diye jaen ge.</li>
+                        </ul><b data-v-f914f79e="">Overall Leaderboard:</b>
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">Users ki ranking rebate card istemal karne ke bad event ke doran
+                                tamam rebate beans ke mutabiq ho gi.</li>
+                            <li data-v-f914f79e="">Leaderboard pe se Top 5 ko rewards diye jaen ge.</li>
+                        </ul>
                     </div>
-                    <div>
-                        <span class="text_1">· روم خصوصی ہدف</span>
-                        <div class="text-wrapper_1 flex-col">
-                            <span class="paragraph_1">
-                                واقعہ کے دوران، اگر پیٹرن کے کھیلوں میں لائیو روم میں لگائے گئے کل شراکت کی مقدار 150
-                                ملین بینز تک
-                                پہنچ جائے، تو لائیو روم کے مالک کو 100 کلو بینز کا خصوصی ہدف بونس ملے گا!
-                                <br />
-                            </span>
-                        </div>
-
-                    </div>
-                    <span class="text_2">· روزانہ کا کام</span>
-                    <div class="text-wrapper_2 flex-col">
-                        <span class="text_3">اب آپ صرف روزانہ کے کام مکمل کرکے انحصاری انعامات جیت سکتے ہیں۔ صارفین کو
-                            صرف روزانہ کے کام
-                            مکمل کرنا ہوگا اور وہ انحصاری ہدف انعامات حاصل کریں گے!
-                            <br><br>
-                        </span>
-                        <span class="paragraph_2">نوٹ: انعامات بھیجنے میں 30 منٹ کا تاخیر ہوگا۔ انعامات کو اگلے دن UTC
-                            0:00 پر ختم ہوجائے گا۔
-                            <br />
-                        </span>
-                    </div>
-                    <span class="text_4">· جیتنے والے روزانہ لیڈر بورڈ</span>
-                    <div class="text-wrapper_3 flex-col">
-                        <span class="paragraph_3">
-                            1. اوپری روزانہ لیڈر بورڈ کے تین صارفین کو دلچسپ انعامات ملیں گے! یہ انعامات واقعہ کے دن کے
-                            آخر میں صارف کو خود بخود
-                            بھیجے جائیں گے۔
-                            <br />
-                            2. جیتنے والے لیڈر بورڈ پر صارفین کو انعام دیا جاتا ہے جو وہ دن بھر میں رائل پیٹرن میں جیتے
-                            ہیں۔
-                        </span>
-                    </div>
-                    <span class="text_5">· روم استہلاک لیڈر بورڈ</span>
-                    <div class="text-wrapper_4 flex-col">
-                        <span class="paragraph_4">
-                            1. ایک روم استہلاک لیڈر بورڈ ہوگا۔ جو دکھائے گا کہ واقعے کے دوران لائیو روم میں کتنے بینز
-                            استعمال ہوئے ہیں۔<br />
-                            2. واقعے کے دوران، اسٹائل پر بازیوں پر سب سے زیادہ جمع کیے گئے شراکت داروں کے بینزوں کی سب
-                            سے زیادہ بیٹ کرنے والے توپ 5 لائیو روم مالکوں کو انعام دیا جائے گا۔ انعامات خود بخود بھیجے
-                            جائیں گے۔
-                        </span>
-                    </div>
-                    <span class="paragraph_5">
-                        نوٹ:<br />
-                        · جب پیٹرن واقعہ شروع ہوتا ہے، وی آئی پی موڈ کو شروع کر دیا جاتا ہے جب تک واقعہ ختم نہیں
-                        ہوتا۔<br />
-                        · واقعہ انعامات واقعہ ختم ہونے کے 72 گھنٹے بعد موصول ہوں گے۔ یو ٹی سی کے مطابق، انعامات 3/12/22
-                        سے پہلے بھیجے جائیں گے۔ واقعہ کا وقت یو ٹی سی وقت پر مبنی ہوتا ہے۔
-                    </span>
+                    <div class="rTag" data-v-f914f79e="">3. Rebate Card Mission:</div>
+                    <div class="text" data-v-f914f79e="">User ko event ke doran muktalif numbers ke rebate cards
+                        khareedne pe extra rewards diye jaen ge.</div>
                 </div>
                 <div class="rule_text" v-if="language == 3">
                     <div class="paragraph_6">
