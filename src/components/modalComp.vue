@@ -143,70 +143,34 @@
                         পারেনসংখ্যা ইভেন্ট চলাকালীন রিবেট কার্ডের।</div>
                 </div>
 
-
-                <div class="rule_text" v-if="language == 5">
-                    <div class="paragraph_6">
-                        Kumusta mga tagahanga ng Pattern Game! Narito na ang Round 2 ng pinakamakulay na event ng
-                        OyeTalk.
-                        Sa "Super Pattern-Round 2" na ito, maaari kang sumali sa pamamagitan lamang ng paglalaro ng
-                        Pattern game at pagkumpleto ng mga Espesyal na gawain upang manalo ng mga eksklusibong premyo.
-                        <br />
-                        Ang event na ito ay binubuo ng 4 pangunahing bahagi:
-                        <br />
-                        1. Layunin ng Espesyal na Silid
-                        <br />
-                        2. Araw-araw na Gawain
-                        <br />
-                        3. Panalo sa Araw-araw na Leaderboard
-                        <br />
-                        4. Room Consumption Leaderboard
+                <div class="rule_text" v-if="language === 5">
+                    <div class="rTag" data-v-f914f79e="">Ang kaganapan ay nahahati sa tatlong bahagi:</div>
+                    <div class="text" data-v-f914f79e=""> 1. Panimula sa tampok na Rebate Card<br data-v-f914f79e="">2.
+                        Pang-araw-araw at Pangkalahatang leaderboard<br data-v-f914f79e="">3. Misyon ng rebate card
                     </div>
-                    <div>
-                        <span class="text_1">· Layunin ng Espesyal na Silid</span>
-                        <div class="text-wrapper_1 flex-col">
-                            <span class="paragraph_1">Sa panahon ng event, kung ang kabuuang halaga ng mga pusta sa mga
-                                laro ng Pattern sa live room ay umabot sa 150 Milyong barya, ang may-ari ng live room ay
-                                tatanggap ng espesyal na bonus na layunin na 100k barya!<br /></span>
-                        </div>
+                    <div class="rTag" data-v-f914f79e="">1. Ano ang Rebate Card?</div>
+                    <div class="text" data-v-f914f79e=""> Eksklusibong available para sa mga user ng OyeTalk Royal
+                        Pattern, ang Rebate Card ay isang premium na in-game item. Kung hindi ka nanalo sa isang laro <b
+                            data-v-f914f79e="">(sa pamamagitan ng hindi pagtaya sa panalong upuan)</b>, ang paggamit ng
+                        Rebate Card ay ginagarantiyahan ang isang 5% bean rebate upang mabawasan ang iyong mga
+                        pagkatalo. </div>
+                    <div class="rTag" data-v-f914f79e="">2. Leaderboard</div>
+                    <div class="text" data-v-f914f79e=""><b data-v-f914f79e="">Pang-araw-araw na Leaderboard:</b><br
+                            data-v-f914f79e="">
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">Ira-rank ang mga user batay sa araw-araw na rebate beans sa panahon
+                                ng event pagkatapos gamitin ang Rebate Card.</li>
+                            <li data-v-f914f79e="">Ang nangungunang 1 mula sa leaderboard ay gagantimpalaan.</li>
+                        </ul><b data-v-f914f79e="">Pangkalahatang Leaderboard:</b>
+                        <ul data-v-f914f79e="">
+                            <li data-v-f914f79e="">Iraranggo ang mga user batay sa kabuuang rebate beans sa panahon ng
+                                event pagkatapos gamitin ang Rebate Card.</li>
+                            <li data-v-f914f79e="">Ang nangungunang 5 mula sa leaderboard ay gagantimpalaan.</li>
+                        </ul>
                     </div>
-                    <span class="text_2">· Araw-araw na Gawain</span>
-                    <div class="text-wrapper_2 flex-col">
-                        <span class="text_3">Ngayon maaari kang manalo ng mga eksklusibong premyo sa pamamagitan lamang
-                            ng pagkumpleto ng mga araw-araw na gawain. Kailangan lamang ng mga user na kumpletuhin ang
-                            mga araw-araw na gawain at tatanggapin nila ang mga katumbas na layunin na premyo!
-                            <br><br></span>
-                        <span class="paragraph_2">Tandaan: Magkakaroon ng 30 minuto na kahulugan sa pagpapadala ng mga
-                            premyo. Ang mga premyo ay mag-eexpire sa UTC 0:00 kinabukasan.<br /></span>
-                    </div>
-                    <span class="text_4">· Panalo sa Araw-araw na Leaderboard</span>
-                    <div class="text-wrapper_3 flex-col">
-                        <span class="paragraph_3">
-                            1. Ang mga pangunahing 3 na user sa Panalo sa Araw-araw na leaderboard ay tatanggap ng
-                            nakaaaliw na premyo! Ang mga premyong ito ay ipapadala sa user nang awtomatiko sa katapusan
-                            ng araw sa panahon ng event.<br />
-                            2. Ang Panalo sa Leaderboard ay ranggo batay sa mga barya na napanalunan ng mga user sa
-                            Royal Pattern sa araw na iyon.
-                        </span>
-                    </div>
-                    <span class="text_5">· Room Consumption Leaderboard</span>
-                    <div class="text-wrapper_4 flex-col">
-                        <span class="paragraph_4">
-                            1. May magiging Room Consumption Leaderboard. Ito ay magpapakita kung gaano karaming barya
-                            ang naubos sa live room sa panahon ng event.<br />
-                            2. Sa panahon ng event, ang mga nangungunang 5 na may-ari ng live room na may pinakamataas
-                            na nakakolektang mga pusta sa mga laro ng Pattern ay gagantimpalaan. Ang mga premyo ay
-                            ipapadala nang awtomatiko.
-                        </span>
-                    </div>
-                    <span class="paragraph_5">
-                        Tandaan:<br />
-                        · Kapag nagsimula ang Pattern event, ang VIP mode ay magiging aktibo hanggang sa matapos ang
-                        event.<br />
-                        · Ang mga premyo ng event ay matatanggap sa loob ng 72 oras matapos ang pagtatapos ng event.
-                        Ayon sa UTC, ang mga premyo ay ipapadala bago ang 3/12/22 sa 12:00:00. Ang oras ng event ay
-                        batay sa UTC.
-                    </span>
-
+                    <div class="rTag" data-v-f914f79e="">3. Misyon ng Rebate Card:</div>
+                    <div class="text" data-v-f914f79e="">Maaaring makatanggap ang user ng mga karagdagang reward sa
+                        pamamagitan ng pagbili ng iba't ibang bilang ng mga rebate card sa panahon ng kaganapan.</div>
                 </div>
                 <div class="closeBtn" @click="closeMask">
                     <img src="../assets/images/close.png" alt="" />
