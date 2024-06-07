@@ -120,7 +120,7 @@ export default {
     display: flex;
     flex-direction: column;
     margin: 5.5rem;
-    width: 100%;
+    width: 94%;
     /* justify-content: flex-start; */
     /* padding-inline: 4vw; */
     /* padding-inline-end: 4vw; */

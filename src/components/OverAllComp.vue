@@ -37,7 +37,8 @@
             </div>
         </div> -->
         <div :class="getClassByUserId(user.busUserId)">
-            <div class="rank-top3">
+            <p v-if="user.busUserId === '5017271' || user.busUserId === '5017305'">6</p>
+            <div v-else class="rank-top3">
             </div>
             <div class="user-profile">
                 <button class="profile-Imgbg">
