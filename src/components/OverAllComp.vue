@@ -37,8 +37,8 @@
             </div>
         </div> -->
         <div :class="getClassByUserId(user.busUserId)">
-            <p v-if="user.busUserId === '5017271'">6</p>
-            <p v-else-if="user.busUserId === '5017305'">7</p>
+            <p v-if="user.busUserId === '5017271'" class="User">6</p>
+            <p v-else-if="user.busUserId === '5017305'" class="User">7</p>
             <div v-else class="rank-top3">
             </div>
             <div class="user-profile">
@@ -225,5 +225,9 @@ rank-top3 {
     align-items: center;
     width: 1.46667rem;
     margin-left: auto;
+}
+
+.User{
+    margin-left: 1rem;
 }
 </style>
